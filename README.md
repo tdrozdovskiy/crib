@@ -28,3 +28,5 @@ license, apart from some files in the `optee_os/lib/libutils` directory
 which are distributed under the
 [BSD 3-Clause](http://opensource.org/licenses/BSD-3-Clause) or public domain
 licenses.
+
+[Shell](shell/README.md)
