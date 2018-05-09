@@ -1,0 +1,32 @@
+[user]
+    name = Taras Drozdovskyi
+    email = t.drozdovsky@gmail.com
+[merge]
+	mergetool = kdiff3
+
+[alias]
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+	stn = status -sb -unormal
+	st  = status -sb -uno
+	sns = show --name-status
+	co = checkout
+	ci = commit
+	ca = commit --amend
+	br = branch
+	bra = branch --all
+	d = diff
+	dc = diff --cached
+	mt = mergetool
+	fp = format-patch
+	#logg = log --graph --full-history --all --color --pretty=format:"%x1b[31m%h%x09%x1b[1;32m%d%x1b[0m%x20%ar%x09%x1b[1;35m%an%x1b[0m%x09%s"
+	l  = log --pretty=format:"%x1b[31m%h%x09%x1b[1;32m%d%x1b[0m%x20%ad%x09%x1b[1;35m%an%x1b[0m%x09%s" --graph
+	la = log --pretty=format:"%x1b[31m%h%x09%x1b[1;32m%d%x1b[0m%x20%ad%x09%x1b[1;35m%an%x1b[0m%x09%s" --graph --all
+	who  = shortlog -s
+	bl = blame -b -w
+[color]
+	ui = auto
+[core]
+	editor = vim
+

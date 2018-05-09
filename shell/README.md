@@ -3,4 +3,5 @@
 ### Shell scripts code style
 
 The `template.sh` file is a template for quick start of shell scripts developmnet.
-It incledes examples of some construction of shell language.
+It includes examples of some construction of shell language.
+
