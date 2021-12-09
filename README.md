@@ -32,4 +32,3 @@ This part contains references to the documentation and example how to use
 doxygen tool.
 
 [Shell]: (shell/README.md)
-
